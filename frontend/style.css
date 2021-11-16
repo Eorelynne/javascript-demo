@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(235, 214,128);
+}
+
+main{
+  max-width: 600px;
+  margin: 0 auto;
+background-color: white;
+padding: 20px;
+}
+
+input{
+  width: calc(100% - 8px);
+}
+
+.person{
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+
+.person p {
+  display: none;
+}
+
+.person h3 {
+  cursor: pointer;
+}
+.result {
+  margin-top: 10px;
+}
